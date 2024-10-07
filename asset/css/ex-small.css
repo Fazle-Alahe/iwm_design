@@ -1,0 +1,105 @@
+@media screen and (max-width: 600px){
+    h3{
+        font-size: 1.4rem;
+    } 
+    .header-logo{
+        line-height: 50px;
+        width: 10%;
+        height: fit-content;
+    }
+    .header-logo p{
+        padding: 0 0 0 0 !important;
+        margin: 15px 0 0 60% !important;
+    }
+    .icon{
+        display: block;
+        width: 10%;
+        height: fit-content;
+    }
+    .header-hr{
+        display: none;
+    }
+    .header-menu{
+        display: none;
+        /* position: fixed;
+        left: -100%; */
+        padding: 0 !important;
+        margin-top: 80px;
+        text-align: center;
+        transition: 1s;
+    }
+    .active{
+        display: block;
+        /* left: 0; */
+    }
+    .header-menu a{
+        display: flex;
+        width: 300px;
+        border-radius: 3px;
+        margin: 0 auto !important;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .header-menu a:hover{
+        background-color: #393659;
+        color: white;
+    }
+    .container{
+        height: 100vh;
+    }
+    .or-button{
+        /* padding: 5px 10px; */
+        margin-right: 0 !important;
+        background-color: #3a0d02;
+        border: 1.5px solid #EE6C4D;
+        border-radius: 3px;
+        font-weight: 400;
+    }
+    .container{
+        height: 100vh;
+    }
+    .container-left{
+        margin-left: 5% !important;
+        display: block;
+    }
+    .container-left p{
+        font-size: 15px;
+    }
+    .left-header p{
+        font-size: 1.5rem;
+    }
+    .container-right{
+        margin-top: 20px;
+    }
+    .container-right .circle{
+        height: 150px;
+        width: 150px;
+    }
+    .image img{
+        height: 300px !important;
+    }
+    .about-section{
+        padding-top: 2%;
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    .about-left img{
+        height: 200px;
+    }
+    .about-hr{
+        width: 70%;
+    }
+    .about-right p{
+        font-size: 14px;
+    }
+    .portfolio-card{
+        width: 45%;
+    }
+    .portfolio-card p{
+        font-size: 14px;
+    }
+}
